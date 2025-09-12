@@ -75,23 +75,7 @@ local Tabs = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
 })
-Tabs.Main1:AddButton({
-    Title="MARU Hub",
-    Description="",
-    Callback=function()
 
-getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
-
-Tabs.Main1:AddButton({
-    Title="HIRU Hub",
-    Description="",
-    Callback=function()
-getgenv().Team = "Pirates"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Source/main/HiruHub.lua"))()
-
-Tabs.Main1:AddButton({
-    Title="ASTRAL Hub",
     Description="",
     Callback=function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
