@@ -37,11 +37,11 @@ local Tabs = {
         Main2=Window:AddTab({ Title="Farm Fruit" }),
         Main3=Window:AddTab({ Title="Farm Chest" }),
         Main4=Window:AddTab({ Title="Script Hop" }),
-       Main5=Window:AddTab({ Title="lin tinh" }),
+       
 }
     Tabs.Main0:AddButton({
     Title = "Discord",
-    Description = "TBoyRoblox Community",
+    Description = "DUCZ GROUP",
     Callback = function()
         setclipboard("https://discord.gg/tboyroblox-community-1253927333920899153")
     end
@@ -49,7 +49,7 @@ local Tabs = {
 
     Tabs.Main0:AddButton({
     Title = "Youtuber",
-    Description = "TBoy Roblox",
+    Description = "DUCZ Roblox",
     Callback = function()
         setclipboard("https://www.youtube.com/@TBoyRoblox08")
     end
@@ -75,11 +75,23 @@ local Tabs = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
 })
-
 Tabs.Main1:AddButton({
-    Title="GreenZ Hub",
+    Title="MARU Hub",
     Description="",
     Callback=function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/GreenZ-Hub/refs/heads/main/KaitunDoughKing.lua"))()
-  end
-})
+
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+
+Tabs.Main1:AddButton({
+    Title="HIRU Hub",
+    Description="",
+    Callback=function()
+getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Source/main/HiruHub.lua"))()
+
+Tabs.Main1:AddButton({
+    Title="ASTRAL Hub",
+    Description="",
+    Callback=function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
