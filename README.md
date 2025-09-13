@@ -75,5 +75,9 @@ local Tabs = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
 })
-
-   
+Tabs.Main1:AddButton({
+Title="Redz Hub",
+Description="",
+Callback=function()
+  local Settings = {
+   jjj
